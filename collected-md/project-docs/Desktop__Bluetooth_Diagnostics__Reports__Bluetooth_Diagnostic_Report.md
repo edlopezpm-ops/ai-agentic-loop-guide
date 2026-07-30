@@ -24,7 +24,7 @@ Two **separate, unrelated** problems are present on this machine:
 | Model | Lenovo Legion Pro 5 16ADR10, Type 83LT |
 | BIOS Vendor/Version | LENOVO / **RLCN31WW** |
 | BIOS Release Date | 2025-09-23 |
-| BIOS Serial | PF5P4GM7 |
+| BIOS Serial | <REDACTED_SERIAL> |
 | OS | Windows 11 Home, 25H2, Build 10.0.26200 (UBR/exact build confirmed via registry) |
 | Bluetooth | MediaTek Bluetooth Adapter (USB\VID_0489&PID_E111) |
 | Wi-Fi | MediaTek Wi-Fi 7 MT7925 Wireless LAN Card (PCI\VEN_14C3&DEV_7925) — combo module, shares silicon with BT |

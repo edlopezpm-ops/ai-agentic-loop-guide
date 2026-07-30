@@ -2,13 +2,19 @@
 
 `collected-md/` bundles every `.md` file found under `Documents`, `Desktop`,
 `Downloads` (profile + OneDrive) on this machine, **deduplicated by content**
-and with secret-like values redacted. 30 source files collapsed to 19 unique
-files — 11 were byte-for-byte duplicates (mostly `CLAUDE.MD`/`agents.md`
-copies shared across several local project folders).
+(line-ending differences ignored) and with security-relevant values redacted.
+30 source files collapsed to 18 unique files — 12 were duplicates (mostly
+`CLAUDE.MD`/`agents.md` copies shared across several local project folders;
+one pair differed only by CRLF vs LF line endings).
 
-Redacted: one local PostgreSQL dev password (`postgres-json-demo/README.md`),
-replaced with `<REDACTED>`. It was a local-only dev credential, not used in
-any real environment, but it has no reason to exist in a public repo either.
+Redacted before publishing:
+- One local PostgreSQL dev password (`postgres-json-demo/README.md`) →
+  `<REDACTED>`. Local-only dev credential, never used in a real environment,
+  but no reason to exist in a public repo either.
+- One personal email address, embedded in three `CODEX.MD` files as part of
+  a proprietary-use notice → `<REDACTED_EMAIL>`.
+- One hardware BIOS serial number (`Bluetooth_Diagnostic_Report.md`) →
+  `<REDACTED_SERIAL>`.
 
 | Original path (relative to `C:\Users\<user>\`) | Stored as | Duplicate of an earlier row? |
 |---|---|---|
@@ -20,7 +26,7 @@ any real environment, but it has no reason to exist in a public repo either.
 | `OneDrive\Documents\VS Code\cv-local-generator\docs\ai-json-prompt.md` | `project-docs/...cv-local-generator__docs__ai-json-prompt.md` | No |
 | `OneDrive\Documents\VS Code\cv-local-generator\README.md` | `project-docs/...cv-local-generator__README.md` | No |
 | `OneDrive\Documents\VS Code\DataAnalyticsPy\CLAUDE.MD` | *(same as MD files/CLAUDE.md)* | Yes |
-| `OneDrive\Documents\VS Code\edlopezpm-ops--Madness\agents.md` | `governance/...edlopezpm-ops--Madness__agents.md` | No |
+| `OneDrive\Documents\VS Code\edlopezpm-ops--Madness\agents.md` | *(same as _migration_logs/agents.md — identical content, different line endings)* | Yes |
 | `OneDrive\Documents\VS Code\edlopezpm-ops--Madness\CLAUDE.MD` | *(same as MD files/CLAUDE.md)* | Yes |
 | `OneDrive\Documents\VS Code\edlopezpm-ops--Madness\README.md` | `project-docs/...edlopezpm-ops--Madness__README.md` | No |
 | `OneDrive\Documents\VS Code\FreeCAD Hull\CLAUDE.MD` | *(same as MD files/CLAUDE.md)* | Yes |
@@ -29,7 +35,7 @@ any real environment, but it has no reason to exist in a public repo either.
 | `OneDrive\Documents\VS Code\FreeCAD_WHRackDesign\CLAUDE.MD` | *(same as MD files/CLAUDE.md)* | Yes |
 | `OneDrive\Documents\VS Code\FreeCAD_WHRackDesign\CODEX.MD` | *(same as FreeCAD Hull/CODEX.MD)* | Yes |
 | `OneDrive\Documents\VS Code\FreeCAD_WHRackDesign\README.md` | `project-docs/...FreeCAD_WHRackDesign__README.md` | No |
-| `OneDrive\Documents\VS Code\Madness\agents.md` | *(same as edlopezpm-ops--Madness/agents.md)* | Yes |
+| `OneDrive\Documents\VS Code\Madness\agents.md` | *(same as _migration_logs/agents.md)* | Yes |
 | `OneDrive\Documents\VS Code\Madness\CLAUDE.MD` | *(same as MD files/CLAUDE.md)* | Yes |
 | `OneDrive\Documents\VS Code\Madness\README.md` | *(same as edlopezpm-ops--Madness/README.md)* | Yes |
 | `OneDrive\Documents\VS Code\postgres-json-demo\README.md` | `project-docs/...postgres-json-demo__README.md` (password redacted) | No |

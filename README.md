@@ -41,7 +41,9 @@ and a starter prompt you can paste into a new project today.
 ## Security note
 
 Everything under `collected-md/` was scanned for secret-like patterns
-(API keys, private keys, tokens, passwords) before being committed. One real
-local-dev database password was found and redacted — see `MANIFEST.md` for
-details. If you fork this pattern for your own project docs, run the same
-check before you publish.
+(API keys, private keys, tokens, passwords) before being committed, and
+manually reviewed for other identifying data. Three things were found and
+redacted: a local-dev database password, a personal email address embedded
+in a proprietary-use notice, and a hardware BIOS serial number — see
+`MANIFEST.md` for details. If you fork this pattern for your own project
+docs, run the same check (automated scan + manual read) before you publish.
