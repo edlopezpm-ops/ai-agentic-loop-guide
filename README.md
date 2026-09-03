@@ -67,3 +67,10 @@ and kept private via `.gitignore`.
 
 MIT — see [`LICENSE`](LICENSE). Reuse the guide, the structure, or the
 prompts freely.
+
+---
+
+Built with the **AI Engineering Knowledge Racking (AEKR)** workflow. AEKR es
+guía operativa no gobernante.
+
+![Build with AEKR](assets/aekr-banner.png)
