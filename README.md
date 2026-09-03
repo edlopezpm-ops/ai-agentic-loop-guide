@@ -70,7 +70,6 @@ prompts freely.
 
 ---
 
-Built with the **AI Engineering Knowledge Racking (AEKR)** workflow. AEKR es
-guía operativa no gobernante.
+Built with the **[AI Engineering Knowledge Racking (AEKR)](https://aekr.io)** workflow.
 
 ![Build with AEKR](assets/aekr-banner.png)
