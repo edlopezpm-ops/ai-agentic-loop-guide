@@ -1,8 +1,7 @@
 # AI Agentic Loop Guide
 
 A small reference project on **AI Looping, AI Orchestration, and Agentic
-development** for mini software projects — written so someone else can read
-it and actually reuse the workflow, not just look at a diagram.
+development** for mini software projects.
 
 ## What's in here
 
@@ -31,7 +30,7 @@ it and actually reuse the workflow, not just look at a diagram.
 
 ## Why this exists
 
-Most "AI coding" content either shows a single flashy prompt or a vague
+Most "AI coding" content either shows a single prompt or a vague
 diagram of agents talking to each other. Neither is reusable. This repo is
 the opposite: a concrete, stack-specific loop with exit criteria, guardrails,
 and a starter prompt you can paste into a new project today.
