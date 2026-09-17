@@ -2,7 +2,7 @@
 
 **Stack covered:** SQL · Python · Java · TypeScript · PostgreSQL · HTML5
 
-This guide is a reusable playbook. Drop it into any new mini project on this
+This guide is a reusable playbook. Drop it into any new project on this
 stack and follow the loop below instead of re-deriving a workflow from
 scratch each time.
 
